@@ -63,7 +63,6 @@ for i in range(deep):
         except ValueError:
             print(j+ " can not open for search")
             continue
-        #site1=site
         all_urls[i+1].extend(find_url(site, start_url(j)))
         print('On page '+j+' we find emails: ',find_emails(urllib.request.urlopen(j)))
         #print(all_urls)
