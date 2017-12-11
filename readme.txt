@@ -1,4 +1,4 @@
-This script was created fo Python3.X
+This script was created for Python3.X
 You can use virtualenv:
 Write in the bash: $ python3 -m venv venvname
                    $ source env/bin/activate
